@@ -1,0 +1,202 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55F9C4DC148D8032007457CE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 55F9C4DB148D8032007457CE /* main.c */; };
+		55F9C5AD148D8221007457CE /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F9C5AC148D8221007457CE /* Python.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55F9C4D5148D8032007457CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55F9C4D7148D8032007457CE /* PyAttributes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PyAttributes; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F9C4DB148D8032007457CE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		55F9C4DD148D8032007457CE /* PyAttributes.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PyAttributes.1; sourceTree = "<group>"; };
+		55F9C5AC148D8221007457CE /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F9C4D4148D8032007457CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F9C5AD148D8221007457CE /* Python.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55F9C4CC148D8032007457CE = {
+			isa = PBXGroup;
+			children = (
+				55F9C5AC148D8221007457CE /* Python.framework */,
+				55F9C4DA148D8032007457CE /* PyAttributes */,
+				55F9C4D8148D8032007457CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55F9C4D8148D8032007457CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F9C4D7148D8032007457CE /* PyAttributes */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F9C4DA148D8032007457CE /* PyAttributes */ = {
+			isa = PBXGroup;
+			children = (
+				55F9C4DB148D8032007457CE /* main.c */,
+				55F9C4DD148D8032007457CE /* PyAttributes.1 */,
+			);
+			path = PyAttributes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F9C4D6148D8032007457CE /* PyAttributes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F9C4E0148D8032007457CE /* Build configuration list for PBXNativeTarget "PyAttributes" */;
+			buildPhases = (
+				55F9C4D3148D8032007457CE /* Sources */,
+				55F9C4D4148D8032007457CE /* Frameworks */,
+				55F9C4D5148D8032007457CE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PyAttributes;
+			productName = PyAttributes;
+			productReference = 55F9C4D7148D8032007457CE /* PyAttributes */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F9C4CE148D8032007457CE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 55F9C4D1148D8032007457CE /* Build configuration list for PBXProject "PyAttributes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55F9C4CC148D8032007457CE;
+			productRefGroup = 55F9C4D8148D8032007457CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F9C4D6148D8032007457CE /* PyAttributes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F9C4D3148D8032007457CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F9C4DC148D8032007457CE /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55F9C4DE148D8032007457CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55F9C4DF148D8032007457CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55F9C4E1148D8032007457CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55F9C4E2148D8032007457CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F9C4D1148D8032007457CE /* Build configuration list for PBXProject "PyAttributes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F9C4DE148D8032007457CE /* Debug */,
+				55F9C4DF148D8032007457CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F9C4E0148D8032007457CE /* Build configuration list for PBXNativeTarget "PyAttributes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F9C4E1148D8032007457CE /* Debug */,
+				55F9C4E2148D8032007457CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55F9C4CE148D8032007457CE /* Project object */;
+}

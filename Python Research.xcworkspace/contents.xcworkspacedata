@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:PyRepl++/PyRepl++.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PyObjectManagement/PyObjectManagement.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PyObjectFields/PyObjectFields.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PyImportFile/PyImportFile.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PyImport/PyImport.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PyDictIter/PyDictIter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PyBuffering/PyBuffering.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PyAttributes/PyAttributes.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PyArray/PyArray.xcodeproj">
+   </FileRef>
+</Workspace>

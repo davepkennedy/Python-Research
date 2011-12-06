@@ -1,0 +1,12 @@
+A number of projects where I do things to see what happens
+
+PyArray - dealing with Python array
+PyAttributes - changing the attributes of an object
+PyBuffering - using a StringIO object from within C
+PyDictIter - iterating over the keys of a dictionary in C
+PyImport - a simple module import (md5)
+PyImportFile - importing a file from a location and then calling something
+from it
+PyObjectFields
+PyObjectManagement
+PyRepl++ - A simple Python REPL in C++

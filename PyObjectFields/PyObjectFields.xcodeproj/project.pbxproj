@@ -1,0 +1,206 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55F9C56C148D8130007457CE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 55F9C56B148D8130007457CE /* main.c */; };
+		55F9C575148D814D007457CE /* noddy.c in Sources */ = {isa = PBXBuildFile; fileRef = 55F9C573148D814D007457CE /* noddy.c */; };
+		55F9C5B7148D825E007457CE /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F9C5B6148D825E007457CE /* Python.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55F9C565148D8130007457CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55F9C567148D8130007457CE /* PyObjectFields */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PyObjectFields; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F9C56B148D8130007457CE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		55F9C56D148D8130007457CE /* PyObjectFields.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PyObjectFields.1; sourceTree = "<group>"; };
+		55F9C573148D814D007457CE /* noddy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = noddy.c; sourceTree = "<group>"; };
+		55F9C5B6148D825E007457CE /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F9C564148D8130007457CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F9C5B7148D825E007457CE /* Python.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55F9C55C148D8130007457CE = {
+			isa = PBXGroup;
+			children = (
+				55F9C5B6148D825E007457CE /* Python.framework */,
+				55F9C56A148D8130007457CE /* PyObjectFields */,
+				55F9C568148D8130007457CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55F9C568148D8130007457CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F9C567148D8130007457CE /* PyObjectFields */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F9C56A148D8130007457CE /* PyObjectFields */ = {
+			isa = PBXGroup;
+			children = (
+				55F9C56B148D8130007457CE /* main.c */,
+				55F9C56D148D8130007457CE /* PyObjectFields.1 */,
+				55F9C573148D814D007457CE /* noddy.c */,
+			);
+			path = PyObjectFields;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F9C566148D8130007457CE /* PyObjectFields */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F9C570148D8130007457CE /* Build configuration list for PBXNativeTarget "PyObjectFields" */;
+			buildPhases = (
+				55F9C563148D8130007457CE /* Sources */,
+				55F9C564148D8130007457CE /* Frameworks */,
+				55F9C565148D8130007457CE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PyObjectFields;
+			productName = PyObjectFields;
+			productReference = 55F9C567148D8130007457CE /* PyObjectFields */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F9C55E148D8130007457CE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 55F9C561148D8130007457CE /* Build configuration list for PBXProject "PyObjectFields" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55F9C55C148D8130007457CE;
+			productRefGroup = 55F9C568148D8130007457CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F9C566148D8130007457CE /* PyObjectFields */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F9C563148D8130007457CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F9C56C148D8130007457CE /* main.c in Sources */,
+				55F9C575148D814D007457CE /* noddy.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55F9C56E148D8130007457CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55F9C56F148D8130007457CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55F9C571148D8130007457CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55F9C572148D8130007457CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F9C561148D8130007457CE /* Build configuration list for PBXProject "PyObjectFields" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F9C56E148D8130007457CE /* Debug */,
+				55F9C56F148D8130007457CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F9C570148D8130007457CE /* Build configuration list for PBXNativeTarget "PyObjectFields" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F9C571148D8130007457CE /* Debug */,
+				55F9C572148D8130007457CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55F9C55E148D8130007457CE /* Project object */;
+}

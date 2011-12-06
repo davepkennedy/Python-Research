@@ -1,0 +1,214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55F9C5A9148D81E9007457CE /* bar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55F9C5A4148D81E9007457CE /* bar.cpp */; };
+		55F9C5AA148D81E9007457CE /* foo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55F9C5A6148D81E9007457CE /* foo.cpp */; };
+		55F9C5AB148D81E9007457CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55F9C5A8148D81E9007457CE /* main.cpp */; };
+		55F9C5BB148D8279007457CE /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F9C5BA148D8279007457CE /* Python.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55F9C596148D81BC007457CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55F9C598148D81BC007457CE /* PyRepl++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "PyRepl++"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F9C59E148D81BD007457CE /* PyRepl__.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PyRepl__.1; sourceTree = "<group>"; };
+		55F9C5A4148D81E9007457CE /* bar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bar.cpp; sourceTree = "<group>"; };
+		55F9C5A5148D81E9007457CE /* bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bar.h; sourceTree = "<group>"; };
+		55F9C5A6148D81E9007457CE /* foo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = foo.cpp; sourceTree = "<group>"; };
+		55F9C5A7148D81E9007457CE /* foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foo.h; sourceTree = "<group>"; };
+		55F9C5A8148D81E9007457CE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		55F9C5BA148D8279007457CE /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F9C595148D81BC007457CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F9C5BB148D8279007457CE /* Python.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55F9C58D148D81BC007457CE = {
+			isa = PBXGroup;
+			children = (
+				55F9C5BA148D8279007457CE /* Python.framework */,
+				55F9C59B148D81BD007457CE /* PyRepl++ */,
+				55F9C599148D81BC007457CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55F9C599148D81BC007457CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F9C598148D81BC007457CE /* PyRepl++ */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F9C59B148D81BD007457CE /* PyRepl++ */ = {
+			isa = PBXGroup;
+			children = (
+				55F9C5A4148D81E9007457CE /* bar.cpp */,
+				55F9C5A5148D81E9007457CE /* bar.h */,
+				55F9C5A6148D81E9007457CE /* foo.cpp */,
+				55F9C5A7148D81E9007457CE /* foo.h */,
+				55F9C5A8148D81E9007457CE /* main.cpp */,
+				55F9C59E148D81BD007457CE /* PyRepl__.1 */,
+			);
+			path = "PyRepl++";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F9C597148D81BC007457CE /* PyRepl++ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F9C5A1148D81BD007457CE /* Build configuration list for PBXNativeTarget "PyRepl++" */;
+			buildPhases = (
+				55F9C594148D81BC007457CE /* Sources */,
+				55F9C595148D81BC007457CE /* Frameworks */,
+				55F9C596148D81BC007457CE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PyRepl++";
+			productName = "PyRepl++";
+			productReference = 55F9C598148D81BC007457CE /* PyRepl++ */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F9C58F148D81BC007457CE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 55F9C592148D81BC007457CE /* Build configuration list for PBXProject "PyRepl++" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55F9C58D148D81BC007457CE;
+			productRefGroup = 55F9C599148D81BC007457CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F9C597148D81BC007457CE /* PyRepl++ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F9C594148D81BC007457CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F9C5A9148D81E9007457CE /* bar.cpp in Sources */,
+				55F9C5AA148D81E9007457CE /* foo.cpp in Sources */,
+				55F9C5AB148D81E9007457CE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55F9C59F148D81BD007457CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55F9C5A0148D81BD007457CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55F9C5A2148D81BD007457CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55F9C5A3148D81BD007457CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F9C592148D81BC007457CE /* Build configuration list for PBXProject "PyRepl++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F9C59F148D81BD007457CE /* Debug */,
+				55F9C5A0148D81BD007457CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55F9C5A1148D81BD007457CE /* Build configuration list for PBXNativeTarget "PyRepl++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F9C5A2148D81BD007457CE /* Debug */,
+				55F9C5A3148D81BD007457CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55F9C58F148D81BC007457CE /* Project object */;
+}
